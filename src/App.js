@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import Goal from './Goal/Goal';
 import Garage from './Garege/Garege';
+import { Form1 } from './Form/Form1';
 
 function App() {
   const firstName="Anitah";
@@ -19,13 +20,10 @@ function App() {
       <div>
         <Garage/>
       </div>
-       {/* <div>
-          <Form1 />
-          <hr />
-          <Form2 />
-          <hr />
-          <Form3 />
-      </div> */}
+       <div>
+          <h1> My first form</h1>
+          <Form1/>
+      </div>
     </div>
   )
 }
